@@ -1,0 +1,39 @@
+{
+    "name": "yurticikargo",
+    "version": "1.0.0",
+    "description": "Simple CLI for track your shipments from yurticikargo.com",
+    "main": "./lib/index.js",
+    "bin": {
+        "yurticikargo": "lib/index.js"
+    },
+    "type": "module",
+    "author": "BurakBey",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon lib/index.js"
+    },
+    "dependencies": {
+        "axios": "^1.2.0",
+        "chalk": "^5.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "yurticikargo",
+        "cli",
+        "shipment",
+        "track"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BUR4KBEY/yurticikargo-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BUR4KBEY/yurticikargo-cli/issues"
+    },
+    "homepage": "https://github.com/BUR4KBEY/yurticikargo-cli#readme"
+}
